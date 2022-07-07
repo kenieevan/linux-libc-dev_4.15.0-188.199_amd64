@@ -1,0 +1,17 @@
+Package: linux-libc-dev
+Source: linux
+Version: 4.15.0-188.199
+Architecture: amd64
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Installed-Size: 5573
+Conflicts: linux-kernel-headers
+Replaces: linux-kernel-headers
+Provides: aufs-dev, linux-kernel-headers
+Section: devel
+Priority: optional
+Multi-Arch: same
+Description: Linux Kernel Headers for development
+ This package provides headers from the Linux kernel.  These headers
+ are used by the installed headers for GNU glibc and other system
+ libraries. They are NOT meant to be used to build third-party modules for
+ your kernel. Use linux-headers-* packages for that.
